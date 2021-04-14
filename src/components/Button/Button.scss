@@ -1,0 +1,111 @@
+.btn {
+  padding: 8px 12px;
+  border-radius: 4px;
+  border: 1px solid #e1e1e1;
+  cursor: pointer;
+  color: #fff;
+}
+
+.btn-large {
+  height: 50px;
+  padding: 12px 16px;
+  border-radius: 8px;
+  font-size: 1.3em;
+}
+
+.btn-medium {
+  height: 44px;
+  padding: 10px 14px;
+  border-radius: 6px;
+  font-size: 1em;
+}
+
+.btn-small {
+  height: 38px;
+  padding: 8px 12px;
+  border-radius: 4px;
+  font-size: 0.8em;
+}
+
+.btn-primary {
+  border: 1px solid #0b6bf2;
+  background-color: #0b6bf2;
+  &.clicked {
+    border: 1px solid #0243eb;
+    background-color: #0243eb;
+  }
+  &.inactive {
+    pointer-events: none;
+    border: 1px solid #dbe9fd;
+    background-color: #dbe9fd;
+  }
+}
+.btn-success {
+  border: 1px solid #2cc2a5;
+  background-color: #2cc2a5;
+  &.clicked {
+    border: 1px solid #11a783;
+    background-color: #11a783;
+  }
+  &.inactive {
+    pointer-events: none;
+    border: 1px solid #e0f6f2;
+    background-color: #e0f6f2;
+  }
+}
+
+.btn-info {
+  border: 1px solid #00c1d4;
+  background-color: #00c1d4;
+  &.clicked {
+    border: 1px solid #00a6c0;
+    background-color: #d9f6f9;
+  }
+  &.inactive {
+    pointer-events: none;
+    border: 1px solid #e0f6f2;
+    background-color: #e0f6f2;
+  }
+}
+
+.btn-warning {
+  border: 1px solid #f7c137;
+  background-color: #f7c137;
+  &.clicked {
+    border: 1px solid #f3a618;
+    background-color: #fef6e1;
+  }
+  &.inactive {
+    pointer-events: none;
+    border: 1px solid #e0f6f2;
+    background-color: #e0f6f2;
+  }
+}
+
+.btn-danger {
+  border: 1px solid #e84a50;
+  background-color: #e84a50;
+  &.clicked {
+    border: 1px solid #dc262b;
+    background-color: #dc262b;
+  }
+  &.inactive {
+    pointer-events: none;
+    border: 1px solid #fce4e5;
+    background-color: #fce4e5;
+  }
+}
+
+.btn-default {
+  border: 1px solid #8c54ff;
+  background-color: #8c54ff;
+  &.clicked {
+    border: 1px solid #652eff;
+    background-color: #652eff;
+  }
+  &.inactive {
+    pointer-events: none;
+    border: 1px solid #eee6ff;
+    background-color: #eee6ff;
+  }
+}
